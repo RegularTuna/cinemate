@@ -40,7 +40,7 @@ export const Header = () => {
           >
             <img src={Logo} className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Cinemamate
+              Cinemate
             </span>
           </Link>
           <div id="mobile-nav" className="flex md:order-2">
