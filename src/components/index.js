@@ -1,4 +1,4 @@
-import { ScrollToTop } from "./ScrollToTop";
+
 
 export { Footer } from "./Footer";
 export { Header } from "./Header";

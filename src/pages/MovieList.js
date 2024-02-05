@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+
 
 import { Card } from '../components/Card'
 import { useFetch } from '../hooks/useFetch';
@@ -8,7 +8,7 @@ export const MovieList = ({apiPath, title}) => {
   
   const { data: movies } = useFetch(apiPath);
 
-  useTitle(`${title} \ Cinemate`);
+  useTitle(`${title}  Cinemate`);
   
   return (
     <main>

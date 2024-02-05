@@ -9,7 +9,7 @@ export const MovieDetail = () => {
   const [movie, setMovie] = useState({});
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : BackU;
 
-  useTitle(`${movie.title} \ Cinemate`);
+  useTitle(`${movie.title}  Cinemate`);
 
   useEffect(() => {
     async function fetchMovie(){

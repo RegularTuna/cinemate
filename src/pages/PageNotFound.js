@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+
 import PageNotFoundImage from "../assets/images/pagenotfound.png"
 import { Link } from 'react-router-dom'
 import { Button } from '../components/Button'
@@ -6,7 +6,7 @@ import { useTitle } from '../hooks/useTitle'
 
 export const PageNotFound = ({title}) => {
 
-  useTitle(`${title} \ Cinemate`);
+  useTitle(`${title}  Cinemate`);
 
   return (
     <main>
